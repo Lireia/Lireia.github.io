@@ -93,14 +93,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: themes/hexadillax
+theme: hexadillax
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repository: https://github.com/Lireia/Lireia.github.io.git
-  branch: master
+  branch: blog
 
 menu:
   首页: { id: index, url: / }
