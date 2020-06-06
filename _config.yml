@@ -98,9 +98,9 @@ theme: hexadillax
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repository:https://github.com/Lireia/Lireia.github.io.git
-  branch:master
+  type: git
+  repository: https://github.com/Lireia/Lireia.github.io.git
+  branch: master
 
 menu:
   首页: { id: index, url: / }
