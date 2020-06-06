@@ -4,8 +4,7 @@ node_js: stable
 # S: Build Lireia
 install:
   - npm install
-
-
+  
 #before_script:
  # - npm install -g gulp
 
@@ -14,7 +13,7 @@ script:
   - hexo d -g
 
 after_script:
-  - cd public
+  - cd ./public
   - git config user.name "Lireia"
   - git config user.email "qq6900023@live.cn"
   - git init
