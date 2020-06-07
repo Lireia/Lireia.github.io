@@ -1,3 +1,3 @@
-layout: tags
-title: tags
+layout: categories
+title: categories
 ---
